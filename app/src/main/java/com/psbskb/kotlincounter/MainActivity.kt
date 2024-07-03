@@ -57,8 +57,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Counter(viewModel: CounterViewModel) {
-    val count = remember { mutableIntStateOf(0) }
-
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
